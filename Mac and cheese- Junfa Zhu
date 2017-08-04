@@ -1,0 +1,149 @@
+{
+    "graph": {
+        "directed": true,
+        "type": "Protocol Graph",
+        "Name": "Mac&cheese Protocol",
+        "metadata": {
+            "user-defined": "values"
+        },
+        "nodes": [
+            {
+                "id": 0,
+                "type": "Material",
+                "Name": "H20",
+                "Volume": "30μl",
+            },
+            {
+                "id": 1,
+                "type": "Material",
+                "Name": "TAQ",
+                "Volume": "30μl",
+            },
+            {
+                "id": 2,
+                "type": "Material",
+                "Name": "DNTP",
+                
+                "Volume": "30μl",
+                
+            },
+            {
+                "id": 3,
+                "type": "Material",
+                "Name": "MasterMix",
+                
+                "Volume": "30μl",
+                
+            },
+            {
+                "id": 4,
+                "type": "Material",
+                "Name": "Primer A",
+                
+                "Volume": "30μl",
+                
+            },
+            {
+                "id": 5,
+                "type": "Material",
+                "Name": "Primer B",
+              
+                "Volume": "30μl",
+                
+            },
+            {
+                "id": 6,
+                "type": "Material",
+                "Name": "DNA",
+                
+                "Volume": "30μl",
+                
+            },
+            {
+                "id": 7,
+                "type": "Material",
+                "Name": "PCR",
+                
+                "Volume": "30μl",
+                
+            },
+            {
+                "id": 8,
+                "type": "Action",
+                "Name": "Add",
+                
+            },
+            {
+                "id": 9,
+                "type": "Action",
+                "Name": "Add",
+                
+            },
+        ],
+        "edges": [
+            {
+                "id":"e0",
+                "source": "8",
+                "target": "0",
+                "directed": true,
+                "label": "Acts-On",
+            },
+            {
+                "id":"e1",
+                "source": "8",
+                "target": "1",
+                "directed": true,
+                "label": "Acts-On",
+            },
+            {
+                "id": "e2",
+                "source": "8",
+                "target": "2",
+                "directed": true,
+                "label": "Acts-On",
+            },
+            {
+                "id": "e3",
+                "source": "8",
+                "target": "3",
+                "directed": true,
+                "label": "Creates",
+            },
+            {
+                "id": "e4",
+                "source": "9",
+                "target": "3",
+                "directed": true,
+                "label": "Acts-On",
+            },
+            {
+                "id": "e5",
+                "source": "9",
+                "target": "4",
+                "directed": true,
+                "label": "Acts-On",
+            },
+            {
+                "id": "e6",
+                "source": "9",
+                "target": "5",
+                "directed": true,
+                "label": "Acts-On",
+            },
+            {
+                "id": "e7",
+                "source": "9",
+                "target": "6",
+                "directed": true,
+                "label": "Acts-On",
+            },
+            {
+                "id": "e8",
+                "source": "9",
+                "target": "7",
+                "directed": true,
+                "label": "Creates",
+            }
+        ]
+    }
+}
