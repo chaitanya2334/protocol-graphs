@@ -9,74 +9,64 @@
         "nodes": [
             {
                 "id": 0,
-                "type": "Material",
-                "Name": "H20",
-                "Volume": "30μl",
+                "type": "Action",
+                "Name": "Preheat: 350 degree F",
             },
             {
                 "id": 1,
-                "type": "Material",
-                "Name": "TAQ",
-                "Volume": "30μl",
+                "type": "Device",
+                "Name": "Oven",
+                
             },
             {
                 "id": 2,
-                "type": "Material",
-                "Name": "DNTP",
-                
-                "Volume": "30μl",
-                
+                "type": "Materials",
+                "Name": "the macaroi",
+                "Volume": "as you need",
             },
             {
                 "id": 3,
-                "type": "Material",
-                "Name": "MasterMix",
-                
-                "Volume": "30μl",
+                "type": "Action",
+                "Name": "Cook: until materials slightly firm",
                 
             },
             {
                 "id": 4,
                 "type": "Material",
-                "Name": "Primer A",
-                
-                "Volume": "30μl",
+                "Name": "Slightly firm macaroni",
+                "Volume": "",
                 
             },
             {
                 "id": 5,
-                "type": "Material",
-                "Name": "Primer B",
-              
-                "Volume": "30μl",
+                "type": "Action",
+                "Name": "Drain and Set aside",
                 
             },
             {
                 "id": 6,
                 "type": "Material",
-                "Name": "DNA",
-                
-                "Volume": "30μl",
+                "Name": "Drained macaroni",
+                "Volume": ,
                 
             },
             {
                 "id": 7,
                 "type": "Material",
-                "Name": "PCR",
-                
-                "Volume": "30μl",
-                
-            },
-            {
-                "id": 8,
-                "type": "Action",
-                "Name": "Add",
+                "Name": "Eggs",
+                "Volume": ,
                 
             },
             {
                 "id": 9,
                 "type": "Action",
-                "Name": "Add",
+                "Name": "Beat: into a samll bowl",
+                
+            },
+            {
+                "id": 10,
+                "type": "Device",
+                "Name": "A large pot",
                 
             },
         ],
