@@ -1,0 +1,26 @@
+{
+  "graph": {
+    "directed": true,
+    "sent no": 6,
+    "nodes":[
+      {
+        "id": "n0",
+        "label": "Action",
+        "word": "Add"
+      },
+      {
+        "id": "n1",
+        "label": "Reagent",
+        "word": "second enzyme"
+      }
+    ],
+    "edges":[
+      {
+        "id": "e0",
+        "source": "n0",
+        "label": "Acts on",
+        "target": "n1"
+      }
+    ]
+  }
+}

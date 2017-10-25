@@ -1,0 +1,48 @@
+{
+  "graph": {
+    "directed": true,
+    "sent no": 1,
+    "nodes":[
+      {
+        "id": "n0",
+        "label": "Action",
+        "word": "Set up"
+      },
+      {
+        "id": "n1",
+        "label": "Reagent",
+        "word": "reaction"
+      },
+      {
+        "id": "n2",
+        "label": "Reagent",
+        "word": "Enzyme #1"
+      },
+      {
+        "id": "n3",
+        "label": "Amount",
+        "word": "50 µl"
+      }
+    ],
+    "edges":[
+      {
+        "id": "e0",
+        "source": "n0",
+        "label": "Creates",
+        "target": "n1"
+      },
+      {
+        "id": "e1",
+        "source": "n0",
+        "label": "Using",
+        "target": "n2"
+      },
+      {
+        "id": "e2",
+        "source": "n2",
+        "label": "Measure",
+        "target": "n3"
+      }
+    ]
+  }
+}

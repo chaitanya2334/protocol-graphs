@@ -1,0 +1,48 @@
+{
+  "graph": {
+    "directed": true,
+    "sent no": 5,
+    "nodes":[
+      {
+        "id": "n0",
+        "label": "Action",
+        "word": "Incubation"
+      },
+      {
+        "id": "n1",
+        "label": "Time",
+        "word": "1 hour"
+      },
+      {
+        "id": "n2",
+        "label": "Modifier",
+        "word": "enzyme-specific appropriate"
+      },
+      {
+        "id": "n3",
+        "label": "Temperature",
+        "word": "temperature"
+      }
+    ],
+    "edges":[
+      {
+        "id": "e0",
+        "source": "n0",
+        "label": "Setting",
+        "target": "n1"
+      },
+      {
+        "id": "e1",
+        "source": "n0",
+        "label": "Setting",
+        "target": "n3"
+      },
+      {
+        "id": "e2",
+        "source": "n3",
+        "label": "Mod Link",
+        "target": "n2"
+      }
+    ]
+  }
+}

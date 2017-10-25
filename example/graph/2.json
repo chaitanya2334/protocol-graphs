@@ -1,0 +1,81 @@
+{
+  "graph": {
+    "directed": true,
+    "sent no": 2,
+    "nodes":[
+      {
+        "id": "n0",
+        "label": "Action",
+        "word": "Mix"
+      },
+      {
+        "id": "n1",
+        "label": "Reagent",
+        "word": "components"
+      },
+      {
+        "id": "n2",
+        "label": "Action",
+        "word": "pipetting"
+      },
+      {
+        "id": "n3",
+        "label": "Reagent",
+        "word": "reaction mixture"
+      },
+      {
+        "id": "n4",
+        "label": "Method",
+        "word": "up and down"
+      },
+      {
+        "id": "n5",
+        "label": "Action",
+        "word": "\"flicking\""
+      },
+      {
+        "id": "n6",
+        "label": "Location",
+        "word": "reaction tube"
+      }
+    ],
+    "edges":[
+      {
+        "id": "e0",
+        "source": "n0",
+        "label": "Acts on",
+        "target": "n1"
+      },
+      {
+        "id": "e1",
+        "source": "n0",
+        "label": "Using",
+        "target": "n2"
+      },
+      {
+        "id": "e2",
+        "source": "n2",
+        "label": "Acts on",
+        "target": "n3"
+      },
+      {
+        "id": "e3",
+        "source": "n2",
+        "label": "Using",
+        "target": "n4"
+      },
+      {
+        "id": "e4",
+        "source": "n2",
+        "label": "Or",
+        "target": "n5"
+      },
+      {
+        "id": "e5",
+        "source": "n5",
+        "label": "Acts on",
+        "target": "n6"
+      }
+    ]
+  }
+}
